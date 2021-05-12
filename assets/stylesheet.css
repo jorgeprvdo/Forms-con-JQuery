@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 500px;
+    margin-left: 500px;
+    border-radius: 20px;
+}
+
+#uName,
+#uLastname {
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 200px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border-color: black;
+}
+
+#correo {
+    width: 200px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    border-color: black;
+}
+
+#num {
+    width: 200px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    border-color: black;
+}
+
+
+#btnEnviar {
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+#btnEnviar:hover {
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+}
+
+.rojo {
+    background-color: rgb(243, 43, 43);
+}
+
+.verde {
+    background-color: rgb(115, 252, 126);
+}

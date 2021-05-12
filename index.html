@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/stylesheet.css">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <div class="container">
+        <br>
+        <form action="">
+            <label for="user">Nombre:</label>
+            <input type="text" name="user" placeholder="Ingresa tu nombre" id="uName" class="">
+            <br>
+        
+            <label for="user2">Apellido:</label>
+            <input type="text" name="user2" placeholder="Ingresa tu apellido" id="uLastname" class="">
+            <br>
+        
+            <label for="email">Correo</label>
+            <input type="email" name="email" placeholder="Ingresa tu correo" id="correo" class="">
+            <br>
+
+            <label for="phone">Ingresa tu número teléfonico</label>
+            <input type="tel" id="num" name="phone" placeholder="Telefóno" class="">
+            <br>
+        
+            <label for="departamentoSelect">Departamento a contactar</label>
+            <br>
+            <br>
+
+            <select name="departamento" id="departamentoSelect">
+                <option value="0">Seleccionar</option>
+                <option value="1">Departamento TI</option>
+                <option value="2">Departamento RH</option>
+                <option value="3">Departamento Facturación</option>
+            </select>
+            <br>
+            <br>
+        
+            <p>Mensaje: </p> <br>
+            <textarea name="txtArea" id="txtArea" cols="30" rows="5" placeholder=" Texto"></textarea>
+            <br>
+            <br>
+        
+            <label for="btnAcept">Acepto terminos y condiciones</label>
+            <input type="checkbox" name="btnAcept" id="Terms">
+        
+            <br>
+            <br>
+        
+            <input type="submit" value="Enviar" id="btnEnviar">
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assets/scripts.js"></script>
+</body>
+</html>
